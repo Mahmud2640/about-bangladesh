@@ -10,24 +10,46 @@ html {
   margin-bottom: 1em;
   margin-top: 1em;
 }
-.green{
+/* Flag  */
+.flag {
+  background-color: black;
+  width: 20px;
+  height: 600px;
+  margin-left: 100px;
+}
+.green {
   margin-left: 20px;
   background-color: green;
   width: 600px;
   height: 300px;
   position: absolute;
 }
-.red{
+.red {
   background-color: red;
   width: 150px;
   height: 150px;
   border-radius: 100px;
-  margin-top: 50px;
-  margin-left: 30%;
+  margin: 50px 0px 0px 30%;
 }
-.flag{
+
+/* box  */
+.box {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.blue {
+  background-color: blue;
+  width: 400px;
+  height: 300px;
+}
+.yellow{
+  background-color: yellow;
+  width: 400px;
+  height: 300px;
+}
+.black {
   background-color: black;
-  width: 20px;
-  height: 600px;
-  margin-left: 100px;
+  width: 400px;
+  height: 300px;
 }
