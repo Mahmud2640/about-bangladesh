@@ -14,6 +14,10 @@ html {
   width: 90%;
   margin: 20px auto;
 }
+.top h1 {
+  font-size: 2em;
+  margin-bottom: -15px;
+}
 .top-left {
   width: 80%;
 }
@@ -21,17 +25,45 @@ html {
   font-size: 1.5em;
 }
 .top-right img {
-  width: 400px;
-  height: 500px;
+  width: 500px;
+  height: 600px;
 }
-.about-btn {
+.btn {
   padding: 10px 30px;
   border-radius: 10px;
   border: none;
   color: #fff;
   background-color: #006a4e;
+  transition: 0.5s;
 }
-.about-btn:hover {
+.btn:hover {
   background-color: #f42a40;
   cursor: pointer;
+}
+.card {
+  margin-top: 20px;
+  text-align: center;
+}
+.dhaka {
+  width: 400px;
+  border: 1px solid gray;
+  box-shadow: 5px 5px 12px gray;
+  border-radius: 5px;
+}
+.dhaka img {
+  width: 100%;
+}
+.all-divison {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+.card-info {
+  padding: 10px;
+}
+footer {
+  background-color: #006a4e;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
